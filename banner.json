@@ -19,7 +19,6 @@
     "textColour",
     "bannerColor",
     "bannerOpacity",
-    "style",
     "stackMobileLayout"
   ],
   "type": "object",
@@ -111,13 +110,6 @@
       "description": "Enter a value between 0 and 1 (e.g. 0.3)",
       "minimum": 0,
       "maximum": 1.01
-    },
-    "style": {
-      "type": "string",
-      "minLength": 0,
-      "maxLength": 100,
-      "title": "Style",
-      "description": "Add classname for CSS styling"
     },
     "stackMobileLayout": {
       "type": "boolean",
