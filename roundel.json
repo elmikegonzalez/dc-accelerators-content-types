@@ -17,16 +17,16 @@
     "roundelRatio": {
       "type": "number",
       "title": "Roundel Ratio",
-      "description": "A value between 0 and 10 e.g. 6",
+      "description": "A value between 0 and 3 e.g. 2",
       "minimum": 0,
-      "maximum": 10
+      "maximum": 3
     },
     "opacity": {
       "type": "number",
       "title": "Roundel Opacity",
-      "description": "A value between 0 and 3 e.g. 2",
+      "description": "A value between 0 and 100 e.g. 50",
       "minimum": 0,
-      "maximum": 3
+      "maximum": 100
     },
     "roundelPosition": {
       "type": "string",
