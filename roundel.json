@@ -6,6 +6,7 @@
   "propertyOrder": [
     "roundel",
     "roundelRatio",
+    "opacity",
     "roundelPosition"
   ],
   "type": "object",
@@ -19,6 +20,13 @@
       "description": "A value between 0 and 10 e.g. 6",
       "minimum": 0,
       "maximum": 10
+    },
+    "opacity": {
+      "type": "number",
+      "title": "Roundel Opacity",
+      "description": "A value between 0 and 3 e.g. 2",
+      "minimum": 0,
+      "maximum": 3
     },
     "roundelPosition": {
       "type": "string",
