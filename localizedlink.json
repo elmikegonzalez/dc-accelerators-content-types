@@ -1,43 +1,47 @@
 {
-  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/localizedlink.json",
-  "title": "Link Accelerator",
-  "description": "Link Accelerator",
-  "propertyOrder": [
-    "label",
-    "value"
-  ],
-  "label": {
-  "title": ":Label",
-  "description": "Localized Label",
-  "validation": "Please enter less than 255 characters",
-  "allOf": [
-  {
-  "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/localized-value"
-  }
-  ],
-  "properties": {
-  "values": {
-  "items": {
-  "properties": {
-  "value": {
-  "title": "Label",
-  "description": "Localized Label",
-  "type": "string",
-  "minLength": 0,
-  "maxLength": 255
-  }
-  }
-  }
-  }
-  }
-  },
-    "value": {
-      "type": "string",
-      "minLength": 0,
-      "maxLength": 2000,
-      "title": "Value",
-      "description": "A relative URL, absolute URL or an ID"
-    }
-  }
+   "$schema":"http://bigcontent.io/cms/schema/v1/schema#",
+   "id":"{CONTENT_TYPE_BASEPATH}/localizedlink.json",
+   "title":"localised-link.json",
+   "description":"Localized Link",
+   "type":"object",
+   "allOf":[
+      {
+         "$ref":"http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+      }
+   ],
+   "propertyOrder":[
+      "label",
+      "value"
+   ],
+   "properties":{
+      "label":{
+         "allOf":[
+            {
+               "$ref":"http://bigcontent.io/cms/schema/v1/core#/definitions/localized-value"
+            }
+         ],
+         "properties":{
+            "values":{
+               "items":{
+                  "properties":{
+                     "value":{
+                        "title":"Call to action text",
+                        "description":"The text you want displayed with the call to action",
+                        "type":"string",
+                        "format":"text",
+                        "maxLength":256
+                     }
+                  }
+               }
+            }
+         }
+      },
+      "value":{
+         "title":"Call to action URL",
+         "description":"The URL for the call to action",
+         "type":"string",
+         "format":"uri",
+         "maxLength":256
+      }
+   }
 }
