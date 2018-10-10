@@ -7,31 +7,31 @@
     "label",
     "value"
   ],
-    "label": {
-    "title": "label",
-    "description": "Link Label",
-    "validation": "Please enter less than 255 characters",
-    "allOf": [
-    {
-    "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/localized-value"
-    }
-    ],
-    "properties": {
-    "values": {
-    "items": {
-    "properties": {
-    "value": {
-    "title": "Label",
-    "description": "Localized label",
-    "type": "string",
-    "minLength": 0,
-    "maxLength": 255
-    }
-    }
-    }
-    }
-    }
-    },
+  "label": {
+  "title": ":Label",
+  "description": "Localized Label",
+  "validation": "Please enter less than 255 characters",
+  "allOf": [
+  {
+  "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/localized-value"
+  }
+  ],
+  "properties": {
+  "values": {
+  "items": {
+  "properties": {
+  "value": {
+  "title": "Label",
+  "description": "Localized Label",
+  "type": "string",
+  "minLength": 0,
+  "maxLength": 255
+  }
+  }
+  }
+  }
+  }
+  },
     "value": {
       "type": "string",
       "minLength": 0,
