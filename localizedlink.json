@@ -1,7 +1,7 @@
 {
    "$schema":"http://bigcontent.io/cms/schema/v1/schema#",
    "id":"{CONTENT_TYPE_BASEPATH}/localizedlink.json",
-   "title":"localised-link.json",
+   "title":"Localized Link",
    "description":"Localized Link",
    "type":"object",
    "allOf":[
@@ -37,11 +37,26 @@
          }
       },
       "value":{
-         "title":"Call to action URL",
-         "description":"The URL for the call to action",
-         "type":"string",
-         "format":"uri",
-         "maxLength":256
-      }
+         "allOf":[
+            {
+               "$ref":"http://bigcontent.io/cms/schema/v1/core#/definitions/localized-value"
+            }
+         ],
+         "properties":{
+            "values":{
+               "items":{
+                  "properties":{
+                     "value":{
+                        "title":"Call to action value",
+                        "description":"url to point to per locale",
+                        "type":"string",
+                        "format":"text",
+                        "maxLength":256
+                     }
+                  }
+               }
+            }
+         }
+      },
    }
 }
