@@ -16,7 +16,7 @@
 "description": "Localized background image for the banner",
 "allOf": [
 {
-"$ref": "https://s3-eu-west-1.amazonaws.com/dev-solutions/maic/DynamicContentTypes/localizedimage.json"
+"$ref": "{CONTENT_TYPE_BASEPATH}/localizedimage.json"
 }
 ]
 },
@@ -81,7 +81,7 @@
 "description": "The action link / button for the banner",
 "allOf": [
 {
-"$ref": "https://s3-eu-west-1.amazonaws.com/dev-solutions/maic/DynamicContentTypes/localizedlink.json"
+"$ref": "{CONTENT_TYPE_BASEPATH}/localizedlink.json"
 }
 ],
 "_interpolate": true
@@ -89,7 +89,7 @@
 "alignment": {
 "type": "string",
 "title": "Alignment",
-"description": "Alignment of the text content in the banner (left/right). Default is left",
+"description": "Alignment of the text content in the banner (left/center/right). Default is left",
 "enum": [
 "left",
 "right",
