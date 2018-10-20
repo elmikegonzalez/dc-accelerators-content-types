@@ -24,12 +24,12 @@
                      "items":{
                         "properties":{
                            "value":{
-                              "title":"Background image or video",
+                              "title":"Background image",
                               "description":"The background media of this banner",
                               "type":"object",
                               "allOf":[
                                  {
-                                    "$ref": "{CONTENT_TYPE_BASEPATH}/localizedimage.json"
+                                    "$ref": "{CONTENT_TYPE_BASEPATH}/image.json"
                                  }
                               ]
                            }
