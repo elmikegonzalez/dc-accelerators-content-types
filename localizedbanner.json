@@ -76,14 +76,14 @@
       "maxLength": 2000
     },
     "button": {
-      "type": "object",
       "title": "Link / Button",
       "description": "The action link / button for the banner",
-      "allOf": [
-        {
-          "$ref": "{CONTENT_TYPE_BASEPATH}/localizedlink.json"
-        }
-      ],
+      "type": "array",
+      "items": {
+        "$ref": "{CONTENT_TYPE_BASEPATH}/roundel.json"
+      },
+      "minItems": 0,
+      "maxItems": 2,
       "_interpolate": true
     },
     "alignment": {
