@@ -24,15 +24,12 @@
                      "items":{
                         "properties":{
                            "value":{
-                              "title":"Background image or video",
+                              "title":"Background image",
                               "description":"The background media of this banner",
                               "type":"object",
                               "anyOf":[
                                  {
                                     "$ref":"http://bigcontent.io/cms/schema/v1/core#/definitions/image-link"
-                                 },
-                                 {
-                                    "$ref":"http://bigcontent.io/cms/schema/v1/core#/definitions/video-link"
                                  },
                                  {
                                     "$ref": "{CONTENT_TYPE_BASEPATH}/localizedimage.json"
