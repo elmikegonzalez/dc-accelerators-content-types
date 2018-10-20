@@ -33,6 +33,9 @@
                                  },
                                  {
                                     "$ref":"http://bigcontent.io/cms/schema/v1/core#/definitions/video-link"
+                                 },
+                                 {
+                                    "$ref": "{CONTENT_TYPE_BASEPATH}/localizedimage.json"
                                  }
                               ]
                            }
