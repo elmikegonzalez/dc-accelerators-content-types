@@ -80,7 +80,7 @@
       "description": "The action link / button for the banner",
       "type": "array",
       "items": {
-        "$ref": "{CONTENT_TYPE_BASEPATH}/roundel.json"
+        "$ref": "{CONTENT_TYPE_BASEPATH}/localizedlink.json"
       },
       "minItems": 0,
       "maxItems": 2,
