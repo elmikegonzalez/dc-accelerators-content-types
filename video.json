@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/video.json",
+  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/video.json",
   "title": "Video Accelerator",
   "description": "Video Accelerator",
   "allOf": [

@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/slider.json",
+  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/slider.json",
   "title": "Slider Accelerator",
   "description": "Slider Accelerator",
   "allOf": [
@@ -29,9 +29,9 @@
               "contentType": {
                 "title": "slides",
                 "enum": [
-                  "{CONTENT_TYPE_BASEPATH}/banner.json",
-                  "{CONTENT_TYPE_BASEPATH}/image.json",
-                  "{CONTENT_TYPE_BASEPATH}/video.json"
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/banner.json",
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/image.json",
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/video.json"
                 ]
               }
             }

@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/splitblock.json",
+  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/splitblock.json",
   "title": "Split Block Accelerators",
   "description": "Split Block Accelerator",
   "allOf": [
@@ -26,9 +26,9 @@
               "contentType": {
                 "title": "content",
                 "enum": [
-                  "{CONTENT_TYPE_BASEPATH}/image.json",
-                  "{CONTENT_TYPE_BASEPATH}/video.json",
-                  "{CONTENT_TYPE_BASEPATH}/text.json"
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/image.json",
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/video.json",
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/text.json"
                 ]
               }
             }

@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/promobannersection.json",
+  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/promobannersection.json",
   "title": "Promo Banner Section",
   "description": "Promo Banner Section",
   "allOf": [
@@ -70,7 +70,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "{CONTENT_TYPE_BASEPATH}/link.json"
+          "$ref": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/link.json"
         }
       ]
     }

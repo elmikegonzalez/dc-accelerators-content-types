@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/blog.json",
+  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/blog.json",
   "title": "Blog Accelerator",
   "description": "Blog Accelerator",
   "allOf": [
@@ -22,7 +22,7 @@
       "description": "",
       "allOf": [
         {
-          "$ref": "{CONTENT_TYPE_BASEPATH}/snippet.json"
+          "$ref": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/snippet.json"
         }
       ]
     },
@@ -45,12 +45,12 @@
               "contentType": {
                 "title": "Content",
                 "enum": [
-                  "{CONTENT_TYPE_BASEPATH}/banner.json",
-                  "{CONTENT_TYPE_BASEPATH}/image.json",
-                  "{CONTENT_TYPE_BASEPATH}/video.json",
-                  "{CONTENT_TYPE_BASEPATH}/text.json",
-                  "{CONTENT_TYPE_BASEPATH}/cardlist.json",
-                  "{CONTENT_TYPE_BASEPATH}/blog.json"
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/banner.json",
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/image.json",
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/video.json",
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/text.json",
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/cardlist.json",
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/blog.json"
                 ]
               }
             }

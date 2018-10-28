@@ -1,6 +1,6 @@
 {
    "$schema":"http://bigcontent.io/cms/schema/v1/schema#",
-   "id":"{CONTENT_TYPE_BASEPATH}/localizedimage.json",
+   "id":"{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/localizedimage.json",
    "title":"Localized Image",
    "description":"Localized Image",
    "type":"object",
@@ -29,7 +29,7 @@
                               "type":"object",
                               "allOf":[
                                  {
-                                    "$ref": "{CONTENT_TYPE_BASEPATH}/image.json"
+                                    "$ref": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/image.json"
                                  }
                               ]
                            }

@@ -1,6 +1,6 @@
 {
    "$schema":"http://bigcontent.io/cms/schema/v1/schema#",
-   "id":"{CONTENT_TYPE_BASEPATH}/localizedlink.json",
+   "id":"{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/localizedlink.json",
    "title":"Localized Link",
    "description":"Localized Link",
    "type":"object",

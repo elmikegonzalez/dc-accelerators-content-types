@@ -1,8 +1,8 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/promobanner.json",
-  "title": "Promotional Banner",
-  "description": "Promotional banner",
+  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/stack-slot.json",
+  "title": "Stack Slot",
+  "description": "Slot that allows a number of any content type",
   "allOf": [
     {
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
@@ -10,8 +10,10 @@
   ],
   "type": "object",
   "properties": {
-    "bannerSection": {
+    "contentTypes": {
       "type": "array",
+      "title": "Content Types",
+      "description": "Select and order content to display in the page",
       "items": {
         "allOf": [
           {
@@ -20,17 +22,15 @@
           {
             "properties": {
               "contentType": {
-                "title": "Promo section",
+                "title": "",
                 "enum": [
-                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/promobannersection.json"
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/localizedbanner.json"
                 ]
               }
             }
           }
         ]
-      },
-      "minItems": 1,
-      "maxItems": 3
+      }
     }
   }
 }

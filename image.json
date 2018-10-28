@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/image.json",
+  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/image.json",
   "title": "Image",
   "description": "Image Accelerator",
   "allOf": [
@@ -46,7 +46,7 @@
       "description": "Roundel Image",
       "type": "array",
       "items": {
-        "$ref": "{CONTENT_TYPE_BASEPATH}/roundel.json"
+        "$ref": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/roundel.json"
       },
       "minItems": 0,
       "maxItems": 4,

@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/card.json",
+  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/card.json",
   "title": "Card Accelerator",
   "description": "Card Accelerator",
   "allOf": [
@@ -29,7 +29,7 @@
             "contentType": {
               "title": "image",
               "enum": [
-                "{CONTENT_TYPE_BASEPATH}/image.json"
+                "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/image.json"
               ]
             }
           }
@@ -65,7 +65,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "{CONTENT_TYPE_BASEPATH}/link.json"
+          "$ref": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/link.json"
         }
       ]
     }

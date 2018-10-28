@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/link.json",
+  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/link.json",
   "title": "Link Accelerator",
   "description": "Link Accelerator",
   "propertyOrder": [

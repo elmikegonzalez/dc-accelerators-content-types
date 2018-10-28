@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/snippet.json",
+  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/snippet.json",
   "title": "Blog Snippet Accelerator",
   "description": "Blog Snippet Accelerator",
   "allOf": [
@@ -22,7 +22,7 @@
       "description": "",
       "allOf": [
         {
-          "$ref": "{CONTENT_TYPE_BASEPATH}/image.json"
+          "$ref": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/image.json"
         }
       ]
     },
@@ -46,7 +46,7 @@
       "description": "",
       "allOf": [
         {
-          "$ref": "{CONTENT_TYPE_BASEPATH}/link.json"
+          "$ref": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/link.json"
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/cardlist.json",
+  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/cardlist.json",
   "title": "Card List Accelerator",
   "description": "Card List Accelerator",
   "allOf": [
@@ -39,7 +39,7 @@
               "contentType": {
                 "title": "Card Content",
                 "enum": [
-                  "{CONTENT_TYPE_BASEPATH}/card.json"
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/card.json"
                 ]
               }
             }
