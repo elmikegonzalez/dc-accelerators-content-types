@@ -1,7 +1,7 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/localizedbanner.json",
-  "title": "Banner",
+  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/localizedbanner.json",
+  "title": "Localized Banner",
   "description": "A reusable content type for banner content",
   "allOf": [
     {
@@ -16,7 +16,7 @@
       "description": "Localized background image for the banner",
       "allOf": [
         {
-          "$ref": "{CONTENT_TYPE_BASEPATH}/localizedimage.json"
+          "$ref": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/localizedimage.json"
         }
       ]
     },
@@ -68,19 +68,34 @@
       }
     },
     "description": {
-      "type": "string",
-      "title": "Description",
-      "description": "Description text for the banner",
-      "validation": "Please enter less than 2000 characters",
-      "minLength": 0,
-      "maxLength": 2000
+      "allOf": [
+        {
+          "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/localized-value"
+        }
+      ],
+      "properties": {
+        "values": {
+          "items": {
+            "properties": {
+              "value": {
+                "title": "Localized Description",
+                "description": "Localized Description text for the banner",
+                "validation": "Please enter less than 2000 characters",
+                "type": "string",
+                "minLength": 0,
+                "maxLength": 2000
+              }
+            }
+          }
+        }
+      }
     },
     "button": {
       "title": "Link / Button",
       "description": "The action link / button for the banner",
       "type": "array",
       "items": {
-        "$ref": "{CONTENT_TYPE_BASEPATH}/localizedlink.json"
+        "$ref": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/localizedlink.json"
       },
       "minItems": 0,
       "maxItems": 2,

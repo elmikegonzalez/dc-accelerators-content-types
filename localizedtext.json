@@ -1,0 +1,44 @@
+{
+   "$schema":"http://bigcontent.io/cms/schema/v1/schema#",
+   "id":"{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/localizedtext.json",
+   "title":"Localized Text",
+   "description":"Localized Text",
+   "type":"object",
+   "allOf":[
+      {
+         "$ref":"http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+      }
+   ],
+   "propertyOrder":[
+     "text"
+   ],
+   "properties":{
+      "text":{
+         "allOf":[
+            {
+               "$ref":"http://bigcontent.io/cms/schema/v1/core#/definitions/localized-value"
+            },
+            {
+               "properties":{
+                  "values":{
+                     "items":{
+                        "properties":{
+                           "value":{
+                              "title":"Text",
+                              "description":"Text",
+                              "type":"object",
+                              "allOf":[
+                                 {
+                                    "$ref": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/text.json"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         ]
+      }
+   }
+}
