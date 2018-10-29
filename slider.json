@@ -31,7 +31,8 @@
                 "enum": [
                   "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/banner.json",
                   "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/image.json",
-                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/video.json"
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/video.json",
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/localizedbanner.json"
                 ]
               }
             }
