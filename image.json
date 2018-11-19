@@ -57,7 +57,7 @@
       "title": "Display type",
       "description": "How the image should display (Point of Interest, Hotspots, served staticaly (ie, animated GIF)",
       "enum": [
-        "POI",
+        "Point of Interest",
         "Hotspots",
         "Static"
       ]
