@@ -25,6 +25,7 @@
               "contentType": {
                 "title": "Content Types",
                 "enum": [
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/banner.json",
                   "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/slider.json",
                   "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/promobanner.json",
                   "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/video.json",
@@ -32,8 +33,7 @@
                   "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/externalblock.json",
                   "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/splitblock.json",
                   "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/cardlist.json",
-                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/image.json",
-                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/banner.json"
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/image.json"
                 ]
               }
             }
