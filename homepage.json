@@ -33,7 +33,8 @@
                   "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/externalblock.json",
                   "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/splitblock.json",
                   "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/cardlist.json",
-                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/image.json"
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/image.json",
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/link.json"
                 ]
               }
             }
