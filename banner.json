@@ -23,7 +23,7 @@
     "bannerOpacity",
     "overlayOpacity",
     "stackMobileLayout",
-    "hideBG"
+    "hideOverlay"
   ],
   "type": "object",
   "properties": {
@@ -135,7 +135,7 @@
       "title": "Stack Mobile Layout",
       "description": "Enable to allow banner text to stack underneath the image on small screens"
     },
-    "hideBG": {
+    "hideOverlay": {
       "type": "boolean",
       "title": "Hide Overlay",
       "description": "Hide Overlay behind banner info. Default is false"
