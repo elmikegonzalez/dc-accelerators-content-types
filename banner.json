@@ -99,29 +99,29 @@
       "type": "string",
       "minLength": 3,
       "maxLength": 7,
-      "title": "Font Colour",
-      "description": "Enter a value for font colour. i.e FFFFFF, blue"
+      "title": "Header Font Color",
+      "description": "Enter a value for font color. i.e FFFFFF, blue"
     },
     "subheaderFontColor": {
       "type": "string",
       "minLength": 3,
       "maxLength": 7,
-      "title": "Font Colour",
-      "description": "Enter a value for font colour. i.e FFFFFF, blue"
+      "title": "Subheader Font Color",
+      "description": "Enter a value for font color. i.e FFFFFF, blue"
     },
     "descriptionFontColor": {
       "type": "string",
       "minLength": 3,
       "maxLength": 7,
-      "title": "Font Colour",
-      "description": "Enter a value for font colour. i.e FFFFFF, blue"
+      "title": "Description Font Color",
+      "description": "Enter a value for font color. i.e FFFFFF, blue"
     },
     "overlayColor": {
       "type": "string",
       "minLength": 3,
       "maxLength": 11,
       "title": "Banner Color",
-      "description": "Enter a hex value for banner colour"
+      "description": "Enter a hex value for banner color"
     },
     "overlayOpacity":{
       "type": "number",
