@@ -116,6 +116,11 @@
       "type": "boolean",
       "title": "Stack Mobile Layout",
       "description": "Enable to allow banner text to stack underneath the image on small screens"
+    },
+    "hideBG": {
+      "type": "boolean",
+      "title": "Hide Background",
+      "description": "Enable to have no background behind the banner text. Default is false"
     }
   }
 }
