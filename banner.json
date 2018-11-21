@@ -119,9 +119,9 @@
     "overlayColor": {
       "type": "string",
       "minLength": 3,
-      "maxLength": 11,
-      "title": "Banner Color",
-      "description": "Enter a hex value for banner color"
+      "maxLength": 3,
+      "title": "Overlay Color",
+      "description": "Enter a rgb value for banner color"
     },
     "overlayOpacity":{
       "type": "number",
