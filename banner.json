@@ -123,13 +123,6 @@
       "title": "Banner Color",
       "description": "Enter a hex value for banner colour"
     },
-    "bannerOpacity": {
-      "type": "number",
-      "title": "Banner Opacity",
-      "description": "Enter a value between 0 and 1 (e.g. 0.3)",
-      "minimum": 0,
-      "maximum": 1.01
-    },
     "overlayOpacity":{
       "type": "number",
       "title": "Overlay Opacity",
