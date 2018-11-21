@@ -16,10 +16,14 @@
     "button",
     "textPositionLeft",
     "textPositionTop",
-    "textColour",
-    "bannerColor",
+    "headerFontColor",
+    "subheaderFontColor",
+    "descriptionFontColor",
+    "overlayColor",
     "bannerOpacity",
-    "stackMobileLayout"
+    "overlayOpacity",
+    "stackMobileLayout",
+    "hideBG"
   ],
   "type": "object",
   "properties": {
@@ -91,17 +95,31 @@
       "title": "Text position from middle",
       "description": "Enter a percentage value (without a '%' sign) to position text vertically from the middle"
     },
-    "textColour": {
+    "headerFontColor": {
       "type": "string",
       "minLength": 3,
-      "maxLength": 6,
+      "maxLength": 7,
       "title": "Font Colour",
-      "description": "Enter a hex value for font colour"
+      "description": "Enter a value for font colour. i.e FFFFFF, blue"
     },
-    "bannerColor": {
+    "subheaderFontColor": {
       "type": "string",
       "minLength": 3,
-      "maxLength": 6,
+      "maxLength": 7,
+      "title": "Font Colour",
+      "description": "Enter a value for font colour. i.e FFFFFF, blue"
+    },
+    "descriptionFontColor": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 7,
+      "title": "Font Colour",
+      "description": "Enter a value for font colour. i.e FFFFFF, blue"
+    },
+    "overlayColor": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 11,
       "title": "Banner Color",
       "description": "Enter a hex value for banner colour"
     },
@@ -112,6 +130,13 @@
       "minimum": 0,
       "maximum": 1.01
     },
+    "overlayOpacity":{
+      "type": "number",
+      "title": "Overlay Opacity",
+      "description": "Enter a value between 0 and 1 (e.g. 0.5)",
+      "minimum": 0,
+      "maximum": 1.01
+    },
     "stackMobileLayout": {
       "type": "boolean",
       "title": "Stack Mobile Layout",
@@ -119,8 +144,8 @@
     },
     "hideBG": {
       "type": "boolean",
-      "title": "Hide Background",
-      "description": "Enable to have no background behind the banner text. Default is false"
+      "title": "Hide Overlay",
+      "description": "Hide Overlay behind banner info. Default is false"
     }
   }
 }
