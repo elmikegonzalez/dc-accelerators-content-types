@@ -17,6 +17,7 @@
     "textPositionLeft",
     "textPositionTop",
     "headerFontColor",
+    "headerFontBackground",
     "subheaderFontColor",
     "descriptionFontColor",
     "overlayColor",
@@ -100,6 +101,13 @@
       "minLength": 3,
       "maxLength": 7,
       "title": "Header Font Color",
+      "description": "Enter a value for font color. i.e FFFFFF, blue"
+    },
+    "headerFontBackground": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 7,
+      "title": "Header Font Background Highlight",
       "description": "Enter a value for font color. i.e FFFFFF, blue"
     },
     "subheaderFontColor": {
