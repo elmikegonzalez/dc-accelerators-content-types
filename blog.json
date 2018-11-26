@@ -14,6 +14,15 @@
     "keywords",
     "content"
   ],
+  "required": [
+    "content-asset-id"
+  ],
+  "content-asset-id": {
+    "type": "string",
+    "title": "Content Asset ID",
+    "minLength": 1,
+    "maxLength": 256
+  },
   "type": "object",
   "properties": {
     "snippet": {
