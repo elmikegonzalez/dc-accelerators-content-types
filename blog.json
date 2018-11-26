@@ -8,23 +8,14 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": [
-    "snippet",
-    "title",
-    "keywords",
-    "content"
-  ],
-  "required": [
-    "content-asset-id"
-  ],
-  "content-asset-id": {
-    "type": "string",
-    "title": "Content Asset ID",
-    "minLength": 1,
-    "maxLength": 256
-  },
   "type": "object",
   "properties": {
+    "content-asset-id": {
+      "type": "string",
+      "title": "Content Asset ID",
+      "minLength": 1,
+      "maxLength": 256
+    },
     "snippet": {
       "type": "object",
       "title": "Snippet",
@@ -71,5 +62,15 @@
       "title": "Content",
       "description": ""
     }
-  }
+  },
+  "propertyOrder": [
+    "content-asset-id",
+    "snippet",
+    "title",
+    "keywords",
+    "content"
+  ],
+  "required": [
+    "content-asset-id"
+  ]
 }
