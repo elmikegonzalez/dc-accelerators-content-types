@@ -64,13 +64,13 @@
     }
   },
   "propertyOrder": [
-    "content-asset-id",
+    "assetId",
     "snippet",
     "title",
     "keywords",
     "content"
   ],
   "required": [
-    "content-asset-id"
+    "assetId"
   ]
 }
