@@ -10,7 +10,7 @@
   ],
   "type": "object",
   "properties": {
-    "content-asset-id": {
+    "assetId": {
       "type": "string",
       "title": "Content Asset ID",
       "minLength": 1,
