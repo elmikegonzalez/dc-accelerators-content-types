@@ -8,11 +8,14 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
-  "propertyOrder": [
-    "blogs"
-  ],
   "type": "object",
   "properties": {
+    "assetId": {
+      "type": "string",
+      "title": "Content Asset ID",
+      "minLength": 1,
+      "maxLength": 256
+    },
     "blogs": {
       "type": "array",
       "items": {
@@ -37,5 +40,12 @@
       "title": "Blogs",
       "description": "Select or create a blog.  The snippet will be used to populate the blog list"
     }
-  }
+  },
+  "propertyOrder": [
+    "assetId",
+    "blogs"
+  ],
+  "required": [
+    "assetId"
+  ]
 }
