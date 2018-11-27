@@ -25,7 +25,7 @@
               "contentType": {
                 "title": "content",
                 "enum": [
-                  "{CONTENT_TYPE_BASEPATH}/blog.json"
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/blog.json"
                 ]
               }
             }
