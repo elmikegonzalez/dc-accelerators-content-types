@@ -1,6 +1,6 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/banner-slot.json",
+  "id": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/hero-slot.json",
   "title": "Hero Banner Slot",
   "description": "A Slot that can accept a single banner",
   "allOf": [
