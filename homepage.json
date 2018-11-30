@@ -34,7 +34,9 @@
                   "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/splitblock.json",
                   "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/cardlist.json",
                   "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/image.json",
-                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/link.json"
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/link.json",
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/blog.json",
+                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/bloglist.json"
                 ]
               }
             }
