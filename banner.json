@@ -23,7 +23,8 @@
     "overlayColor",
     "overlayOpacity",
     "stackMobileLayout",
-    "hideOverlay"
+    "hideOverlay",
+    "style"
   ],
   "type": "object",
   "properties": {
@@ -146,6 +147,13 @@
       "type": "boolean",
       "title": "Hide Overlay",
       "description": "Hide Overlay behind banner info. Default is false"
+    },
+    "style": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 100,
+      "title": "style",
+      "description": "Add prefix class for CSS styling. Leave empty for default styling"
     }
   }
 }
