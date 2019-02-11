@@ -23,6 +23,7 @@
         "type":"string",
         "title": "Folder",
         "enum":[
+          "blog",
           "weight-management",
           "sports-and-performance",
           "health-and-wellness",
