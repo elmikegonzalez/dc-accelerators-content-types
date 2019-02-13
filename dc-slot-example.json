@@ -43,8 +43,8 @@
                 "https://s3-eu-west-1.amazonaws.com/dev-solutions/maic/DynamicContentTypes/homepage.json",
                 "https://s3-eu-west-1.amazonaws.com/dev-solutions/maic/DynamicContentTypes/promobanner.json",
                 "https://s3-eu-west-1.amazonaws.com/dev-solutions/maic/DynamicContentTypes/blog.json",
-                "https://s3-eu-west-1.amazonaws.com/dev-solutions/maic/DynamicContentTypes/link.json",
-                "https://s3-eu-west-1.amazonaws.com/dev-solutions/maic/DynamicContentTypes/bloglist.json"
+                "https://s3-eu-west-1.amazonaws.com/dev-solutions/maic/DynamicContentTypes/bloglist.json",
+                "https://s3-eu-west-1.amazonaws.com/dev-solutions/maic/DynamicContentTypes/link.json"
               ]
             }
           }
