@@ -12,7 +12,8 @@
     "image",
     "imageAltText",
     "seoText",
-    "roundel"
+    "roundel",
+    "bgColor"
   ],
   "type": "object",
   "properties": {
@@ -48,8 +49,15 @@
         "$ref": "{CONTENT_TYPE_BASEPATH}/roundel.json"
       },
       "minItems": 0,
-      "maxItems": 4,
+      "maxItems": 5,
       "_interpolate": true
+    },
+    "bgColor": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 6,
+      "title": "Background Color",
+      "description": "Enter a hex value for background color"
     }
   }
 }
