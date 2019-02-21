@@ -13,6 +13,7 @@
     "imageAltText",
     "seoText",
     "roundel",
+    "display",
     "bgColor"
   ],
   "type": "object",
@@ -58,6 +59,16 @@
       "maxLength": 6,
       "title": "Background Color",
       "description": "Enter a hex value for background color"
+    },
+    "display": {
+      "type": "string",
+      "title": "Display type",
+      "description": "How the image should display (Point of Interest, Hotspots, served staticaly (ie, animated GIF)",
+      "enum": [
+        "Point of Interest",
+        "Hotspots",
+        "Static"
+      ]
     }
   }
 }
