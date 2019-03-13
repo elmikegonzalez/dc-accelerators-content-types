@@ -40,7 +40,7 @@
               "contentType": {
                 "title": "image",
                 "enum": [
-                  "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/image.json"
+                  "{CONTENT_TYPE_BASEPATH}/image.json"
                 ]
               }
             }
@@ -78,7 +78,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/link.json"
+          "$ref": "{CONTENT_TYPE_BASEPATH}/link.json"
         }
       ]
     },

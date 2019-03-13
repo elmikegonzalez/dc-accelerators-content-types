@@ -46,7 +46,7 @@
       "description": "Roundel Image",
       "type": "array",
       "items": {
-        "$ref": "{CONTENT_TYPE_BASEPATH}/DynamicContentTypes/roundel.json"
+        "$ref": "{CONTENT_TYPE_BASEPATH}/roundel.json"
       },
       "minItems": 0,
       "maxItems": 4,
