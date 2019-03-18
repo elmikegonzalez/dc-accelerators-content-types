@@ -10,6 +10,7 @@
   ],
   "propertyOrder": [
     "bannerImage",
+    "headerFontColor",
     "subheader",
     "header",
     "description",
@@ -60,6 +61,13 @@
       "maxLength": 255,
       "title": "Header",
       "description": "add header"
+    },
+    "headerFontColor": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 7,
+      "title": "Header Font Color",
+      "description": "Enter a value for font color. i.e FFFFFF, blue"
     },
     "description": {
       "type": "string",
