@@ -55,7 +55,7 @@
     "display": {
       "type": "string",
       "title": "Display type",
-      "description": "How the image should display (Point of Interest, Hotspots, served staticaly (ie, animated GIF)",
+      "description": "How the image should display (Point of Interest, Hotspots, served statically (ie, animated GIF)",
       "enum": [
         "Point of Interest",
         "Hotspots",
