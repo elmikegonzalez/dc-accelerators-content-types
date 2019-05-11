@@ -1,8 +1,8 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/bloglist.json",
-  "title": "Blog Listing Page",
-  "description": "Content Type to populate a blog listing page",
+  "id": "{CONTENT_TYPE_BASEPATH}/blogList.json",
+  "title": "Blog List",
+  "description": "A list of blogs",
   "allOf": [
     {
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
@@ -10,14 +10,10 @@
   ],
   "type": "object",
   "properties": {
-    "assetId": {
-      "type": "string",
-      "title": "Content Asset ID",
-      "minLength": 1,
-      "maxLength": 256
-    },
     "blogs": {
       "type": "array",
+      "title": "Blogs",
+      "description": "Please select the blogs to display in this list",
       "items": {
         "allOf": [
           {
@@ -26,7 +22,7 @@
           {
             "properties": {
               "contentType": {
-                "title": "content",
+                "title": "",
                 "enum": [
                   "{CONTENT_TYPE_BASEPATH}/blog.json"
                 ]
@@ -36,16 +32,7 @@
         ]
       },
       "minItems": 1,
-      "maxItems": 6,
-      "title": "Blogs",
-      "description": "Select or create a blog.  The snippet will be used to populate the blog list"
+      "maxItems": 100
     }
-  },
-  "propertyOrder": [
-    "assetId",
-    "blogs"
-  ],
-  "required": [
-    "assetId"
-  ]
+  }
 }

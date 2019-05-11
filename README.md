@@ -4,7 +4,7 @@
     </a>
 </div>
 
-# Dynamic Content Accelerators content types
+# Dynamic Content Accelerators Willow content types
 
 This is a collection of the content types used for the Amplience Dynamic Content Accelerators.
 

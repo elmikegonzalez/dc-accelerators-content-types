@@ -1,8 +1,8 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
   "id": "{CONTENT_TYPE_BASEPATH}/link.json",
-  "title": "Link Accelerator",
-  "description": "Link Accelerator",
+  "title": "Link",
+  "description": "URL action link",
   "allOf": [
     {
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
@@ -10,23 +10,35 @@
   ],
   "propertyOrder": [
     "label",
+    "type",
     "value"
   ],
   "type": "object",
   "properties": {
     "label": {
       "type": "string",
-      "minLength": 0,
-      "maxLength": 255,
       "title": "Label",
-      "description": ""
+      "description": "The label to be used on display of a link",
+      "minLength": 0,
+      "maxLength": 255
     },
     "value": {
       "type": "string",
-      "minLength": 0,
-      "maxLength": 2000,
       "title": "Value",
-      "description": "A relative URL, absolute URL or an ID"
+      "description": "A relative URL, absolute URL or an ID",
+      "minLength": 0,
+      "maxLength": 2000
+    },
+    "type": {
+      "type": "string",
+      "title": "Link Type",
+      "description": "The type of link. Default is URL",
+      "enum": [
+        "URL",
+        "Category ID",
+        "Product SKU",
+        "Page ID"
+      ]
     }
   }
 }

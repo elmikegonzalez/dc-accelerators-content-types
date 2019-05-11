@@ -1,8 +1,8 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/blog.json",
-  "title": "Blog",
-  "description": "A Blog Post",
+  "id": "{CONTENT_TYPE_BASEPATH}/container.json",
+  "title": "Container",
+  "description": "A re-usable container for all content types",
   "allOf": [
     {
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
@@ -10,20 +10,10 @@
   ],
   "type": "object",
   "properties": {
-    "snippet": {
-      "type": "object",
-      "title": "Blog Snippet",
-      "description": "Blog Snippet",
-      "allOf": [
-        {
-          "$ref": "{CONTENT_TYPE_BASEPATH}/blogSnippet.json"
-        }
-      ]
-    },
     "contentTypes": {
       "type": "array",
       "title": "Content Type",
-      "description": "Select and order content to display in the page",
+      "description": "Select and order content to display in the container",
       "items": {
         "allOf": [
           {
@@ -42,6 +32,7 @@
                   "{CONTENT_TYPE_BASEPATH}/image.json",
                   "{CONTENT_TYPE_BASEPATH}/cardList.json",
                   "{CONTENT_TYPE_BASEPATH}/banner.json",
+                  "{CONTENT_TYPE_BASEPATH}/blogList.json",
                   "{CONTENT_TYPE_BASEPATH}/ugc.json",
                   "{CONTENT_TYPE_BASEPATH}/promoList.json"
                 ]

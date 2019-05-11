@@ -1,8 +1,8 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
   "id": "{CONTENT_TYPE_BASEPATH}/slider.json",
-  "title": "Slider Accelerator",
-  "description": "Slider Accelerator",
+  "title": "Slider",
+  "description": "Contains Images, Videos & Banners to produce a slider / carousel",
   "allOf": [
     {
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
@@ -10,8 +10,6 @@
   ],
   "propertyOrder": [
     "slides",
-    "loadingColour",
-    "loadingPosition",
     "loop",
     "navigationDots"
   ],
@@ -39,19 +37,19 @@
         ]
       },
       "title": "Slides",
-      "description": "",
+      "description": "Select from banners, images and videos to use in this slider",
       "minItems": 1,
       "maxItems": 8
     },
     "loop": {
       "type": "boolean",
       "title": "Loop slider",
-      "description": ""
+      "description": "Infinite slide looping"
     },
     "navigationDots": {
       "type": "boolean",
       "title": "Navigation Dots",
-      "description": ""
+      "description": "Display Navigation dots?"
     }
   }
 }
