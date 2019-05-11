@@ -1,7 +1,7 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/container.json",
-  "title": "Container",
+  "id": "{CONTENT_TYPE_BASEPATH}/page.json",
+  "title": "Page Container",
   "description": "A re-usable container for all content types",
   "allOf": [
     {
