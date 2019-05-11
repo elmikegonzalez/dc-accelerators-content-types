@@ -1,0 +1,42 @@
+﻿{
+    "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+    "id": "{CONTENT_TYPE_BASEPATH}/component-libraries/color-content-type-library.json",
+    "title": "Core type schema",
+    "description": "core content type components to build content types",
+    "allOf": [
+        {
+            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+        }
+    ],
+    "type": "object",
+    "definitions": {
+        "web-color": {
+            "title": "Colors",
+            "enum": [
+                "black",
+                "White",
+                "Silver",
+                "Gray",
+                "Red",
+                "Maroon",
+                "Yellow",
+                "Olive",
+                "Lime",
+                "Green",
+                "Aqua",
+                "Teal",
+                "Blue",
+                "Navy",
+                "Fuchsia",
+                "Purple"
+            ]
+        },
+        "color-code": {
+            "title": "Color Code",
+            "description":"color code e.g. #ffffff or #ffff ",
+            "type": "string",
+            "format":"text",
+            "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"
+        }
+    }
+}

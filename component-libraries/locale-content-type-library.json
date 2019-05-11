@@ -1,0 +1,41 @@
+﻿{
+    "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+    "id": "{CONTENT_TYPE_BASEPATH}/component-libraries/locale-content-type-library.json",
+    "title": "Core type schema",
+    "description": "core content type components to build content types",
+    "allOf": [
+        {
+            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+        }
+    ],
+    "type": "object",
+    "definitions": {
+        "language": {
+            "title": "language",
+            "enum": [
+                "en",
+                "fr",
+                "de",
+                "es",
+                "it",
+                "zh",
+                "ja",
+                "ru"
+            ]
+        },
+        "country": {
+            "title": "country",
+            "enum": [
+                "us",
+                "gb",
+                "fr",
+                "de",
+                "be",
+                "es",
+                "cn",
+                "jp",
+                "ru"
+            ]
+        }
+    }
+}

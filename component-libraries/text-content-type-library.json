@@ -1,0 +1,109 @@
+﻿{
+    "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+    "id": "{CONTENT_TYPE_BASEPATH}/component-libraries/text-content-type-library.json",
+    "title": "Core type schema",
+    "description": "core content type components to build content types",
+    "allOf": [
+        {
+            "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+        }
+    ],
+    "type": "object",
+    "definitions": {
+        "aligned-text": {
+            "type": "object",
+            "title": "LINE OF TEXT",
+            "properties": {
+                "text": {
+                    "type": "string",
+                    "title": " Line of text",
+                    "description": "Text to be displayed.",
+                    "format": "text"
+                },
+                "alignment": {
+                    "$ref": "{CONTENT_TYPE_BASEPATH}/component-libraries/alignment-content-type-library.json#/definitions/h-align"
+                }
+            }
+        },
+        "aligned-text-block": {
+            "type": "object",
+            "title": "TEXT BLOCK",
+            "properties": {
+                "block-alignment": {
+                    "$ref": "{CONTENT_TYPE_BASEPATH}/component-libraries/alignment-content-type-library.json#/definitions/alignment"
+                },
+                "block-color": {
+                    "$ref": "{CONTENT_TYPE_BASEPATH}/component-libraries/color-content-type-library.json#/definitions/web-color"
+                },
+                "text-color": {
+                    "$ref": "{CONTENT_TYPE_BASEPATH}/component-libraries/color-content-type-library.json#/definitions/web-color"
+                },
+                "block-transparency": {
+                    "$ref": "{CONTENT_TYPE_BASEPATH}/component-libraries/opacity-content-type-library.json#/definitions/transparency-list"
+                },
+                "text-items": {
+                    "type": "array",
+                    "title": "TEXT LINE",
+                    "maxItems": 5,
+                    "minItems": 1,
+                    "items": {
+                        "$ref": "#/definitions/aligned-text"
+                    }
+                },
+                "callToAction": {
+                    "$ref": "{CONTENT_TYPE_BASEPATH}/component-libraries/links-content-type-library.json#/definitions/relative-link"
+                }
+            },
+            "required": [
+                "block-transparency"
+            ],
+            "propertyOrder": [
+                "block-position",
+                "block-transparency",
+                "block-color",
+                "text-color",
+                "text-items"
+            ]
+        },
+        "positioned-text-block": {
+            "type": "object",
+            "title": "TEXT BLOCK",
+            "properties": {
+                "block-position": {
+                    "$ref": "{CONTENT_TYPE_BASEPATH}/component-libraries/positioning-content-type-library.json#/definitions/positioning-top-left"
+                },
+                "block-color": {
+                    "$ref": "{CONTENT_TYPE_BASEPATH}/component-libraries/color-content-type-library.json#/definitions/web-color"
+                },
+                "text-color": {
+                    "$ref": "{CONTENT_TYPE_BASEPATH}/component-libraries/color-content-type-library.json#/definitions/web-color"
+                },
+                "block-transparency": {
+                    "$ref": "{CONTENT_TYPE_BASEPATH}/component-libraries/opacity-content-type-library.json#/definitions/transparency-list"
+                },
+                "text-items": {
+                    "type": "array",
+                    "title": "TEXT LINE",
+                    "maxItems": 5,
+                    "minItems": 1,
+                    "items": {
+                        "$ref": "#/definitions/aligned-text"
+                    }
+                },
+                "callToAction": {
+                    "$ref": "{CONTENT_TYPE_BASEPATH}/component-libraries/links-content-type-library.json#/definitions/relative-link"
+                }
+            },
+            "required": [
+                "block-transparency"
+            ],
+            "propertyOrder": [
+                "block-position",
+                "block-transparency",
+                "block-color",
+                "text-color",
+                "text-items"
+            ]
+        }
+    }
+}
