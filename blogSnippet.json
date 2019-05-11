@@ -8,6 +8,16 @@
       "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
     }
   ],
+  "propertyOrder": [
+    "blogdate",
+    "category",
+    "image",
+    "title",
+    "description",
+    "cta",
+    "keywords",
+    "author"
+  ],
   "type": "object",
   "properties": {
     "image": {
@@ -98,15 +108,5 @@
       "minLength": 0,
       "maxLength": 10
     }
-  },
-  "propertyOrder": [
-    "blogcard.jsondate",
-    "category",
-    "image",
-    "title",
-    "description",
-    "cta",
-    "keywords",
-    "author"
-  ]
+  }
 }
