@@ -34,7 +34,8 @@
                   "{CONTENT_TYPE_BASEPATH}/banner.json",
                   "{CONTENT_TYPE_BASEPATH}/blogList.json",
                   "{CONTENT_TYPE_BASEPATH}/ugc.json",
-                  "{CONTENT_TYPE_BASEPATH}/promoList.json"
+                  "{CONTENT_TYPE_BASEPATH}/promoList.json",
+                  "{CONTENT_TYPE_BASEPATH}/blog.json"
                 ]
               }
             }
