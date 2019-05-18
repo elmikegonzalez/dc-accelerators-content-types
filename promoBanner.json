@@ -1,7 +1,7 @@
 {
   "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
-  "id": "{CONTENT_TYPE_BASEPATH}/promo.json",
-  "title": "Promo",
+  "id": "{CONTENT_TYPE_BASEPATH}/promoBanner.json",
+  "title": "Promo Banner Accelerator",
   "description": "A single promotion",
   "allOf": [
     {
