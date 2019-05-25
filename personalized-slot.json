@@ -1,0 +1,67 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "{CONTENT_TYPE_BASEPATH}/personalized-slot.json",
+  "title": "Personalized Slot",
+  "description": "A Slot that can accept multiple content-types for different segments",
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "propertyOrder": [
+    "segment",
+    "content"
+  ],
+  "type": "object",
+  "properties": {
+    "segments": {
+      "type": "array",
+      "title": "Content",
+
+      "items": {
+        "type": "object",
+        "properties": {
+          "segment": {
+            "type": "string",
+            "title": "Segment",
+            "enum": [
+              "bargain-hunter",
+              "fashionista",
+              "home-trendsetter",
+              "globe-trotter"
+            ]
+          },
+          "content": {
+            "title": "Content",
+            "allOf": [
+              {
+                "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content-link"
+              },
+              {
+                "properties": {
+                  "contentType": {
+                    "title": "contentType",
+                    "enum": [
+                      "{CONTENT_TYPE_BASEPATH}/banner.json",
+                      "{CONTENT_TYPE_BASEPATH}/blog.json",
+                      "{CONTENT_TYPE_BASEPATH}/blogList.json",
+                      "{CONTENT_TYPE_BASEPATH}/card.json",
+                      "{CONTENT_TYPE_BASEPATH}/cardList.json",
+                      "{CONTENT_TYPE_BASEPATH}/promobanner.json",
+                      "{CONTENT_TYPE_BASEPATH}/shoppableVideo.json",
+                      "{CONTENT_TYPE_BASEPATH}/promobanner.json",
+                      "{CONTENT_TYPE_BASEPATH}/splitBlock.json",
+                      "{CONTENT_TYPE_BASEPATH}/slider.json",
+                      "{CONTENT_TYPE_BASEPATH}/text.json",
+                      "{CONTENT_TYPE_BASEPATH}/video.json"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
