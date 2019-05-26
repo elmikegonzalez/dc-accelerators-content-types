@@ -49,7 +49,6 @@
                       "{CONTENT_TYPE_BASEPATH}/cardList.json",
                       "{CONTENT_TYPE_BASEPATH}/promobanner.json",
                       "{CONTENT_TYPE_BASEPATH}/shoppableVideo.json",
-                      "{CONTENT_TYPE_BASEPATH}/promobanner.json",
                       "{CONTENT_TYPE_BASEPATH}/splitBlock.json",
                       "{CONTENT_TYPE_BASEPATH}/slider.json",
                       "{CONTENT_TYPE_BASEPATH}/text.json",
