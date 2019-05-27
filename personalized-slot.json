@@ -48,14 +48,15 @@
                       "{CONTENT_TYPE_BASEPATH}/blogList.json",
                       "{CONTENT_TYPE_BASEPATH}/card.json",
                       "{CONTENT_TYPE_BASEPATH}/cardList.json",
+                      "{CONTENT_TYPE_BASEPATH}/container.json"
                       "{CONTENT_TYPE_BASEPATH}/image.json",
                       "{CONTENT_TYPE_BASEPATH}/promobanner.json",
                       "{CONTENT_TYPE_BASEPATH}/shoppableVideo.json",
                       "{CONTENT_TYPE_BASEPATH}/splitBlock.json",
                       "{CONTENT_TYPE_BASEPATH}/slider.json",
+                      "{CONTENT_TYPE_BASEPATH}/svg-banner.json",
                       "{CONTENT_TYPE_BASEPATH}/text.json",
-                      "{CONTENT_TYPE_BASEPATH}/video.json",
-                      "{CONTENT_TYPE_BASEPATH}/svg-banner.json"
+                      "{CONTENT_TYPE_BASEPATH}/video.json"
                     ]
                   }
                 }
