@@ -67,7 +67,7 @@
       "description": "1st banner message",
       "type": "string",
       "hint" : "The first line of banner message text",
-      "validation" : "must be no longer than 120 character"
+      "validation" : "must be no longer than 120 character",
       "minLength": 0,
       "maxLength": 120
     },
