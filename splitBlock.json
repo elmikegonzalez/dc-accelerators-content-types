@@ -28,7 +28,8 @@
                   "{CONTENT_TYPE_BASEPATH}/image.json",
                   "{CONTENT_TYPE_BASEPATH}/video.json",
                   "{CONTENT_TYPE_BASEPATH}/text.json",
-                  "{CONTENT_TYPE_BASEPATH}/banner.json"
+                  "{CONTENT_TYPE_BASEPATH}/banner.json",
+                  "{CONTENT_TYPE_BASEPATH}/cardList.json"
                 ]
               }
             }
