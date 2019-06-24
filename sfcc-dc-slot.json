@@ -42,7 +42,8 @@
                 "{CONTENT_TYPE_BASEPATH}/homepage.json",
                 "{CONTENT_TYPE_BASEPATH}/promobanner.json",
                 "{CONTENT_TYPE_BASEPATH}/blog.json",
-                "{CONTENT_TYPE_BASEPATH}/cardList.json"
+                "{CONTENT_TYPE_BASEPATH}/cardList.json",
+                "{CONTENT_TYPE_BASEPATH}/emailbannersvg.json"
               ]
             }
           }
