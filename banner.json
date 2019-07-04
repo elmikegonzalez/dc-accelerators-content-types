@@ -30,7 +30,6 @@
     "style",
     "analyticsEventLabel"
   ],
-  "required": [],
   "type": "object",
   "properties": {
     "img": {
