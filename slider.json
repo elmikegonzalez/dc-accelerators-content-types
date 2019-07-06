@@ -44,8 +44,8 @@
     },
     "autoPlay": {
       "type": "boolean",
-      "title": "Navigation Dots",
-      "description": "Display Navigation dots?"
+      "title": "Autoplay",
+      "description": "Autoplay slider?"
     },
     "loop": {
       "type": "boolean",
