@@ -19,6 +19,7 @@
     "descriptionFontColor",
     "button",
     "alignment",
+    "valignment",
     "percH",
     "percV",
     "overlayColor",
