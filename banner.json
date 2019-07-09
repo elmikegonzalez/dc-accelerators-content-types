@@ -11,6 +11,7 @@
   "propertyOrder": [
     "img",
     "header",
+    "headerFont",
     "headerFontColor",
     "headerFontBackground",
     "subheader",
@@ -163,38 +164,33 @@
     },
     "headerFontColor": {
       "type": "string",
-      "minLength": 3,
-      "maxLength": 7,
+      "format": "color",
       "title": "Header Font Color",
-      "description": "Enter a value for font color. i.e FFFFFF, blue"
+      "description": "Choose header font color"
     },
     "headerFontBackground": {
       "type": "string",
-      "minLength": 3,
-      "maxLength": 7,
+      "format": "color",
       "title": "Header Font Background Highlight",
-      "description": "Enter a value for font color. i.e FFFFFF, blue"
+      "description": "Choose header highlight color"
     },
     "subheaderFontColor": {
       "type": "string",
-      "minLength": 3,
-      "maxLength": 7,
+      "format": "color",
       "title": "Subheader Font Color",
-      "description": "Enter a value for font color. i.e FFFFFF, blue"
+      "description": "Choose subheader font color"
     },
     "descriptionFontColor": {
       "type": "string",
-      "minLength": 3,
-      "maxLength": 7,
+      "format": "color",
       "title": "Description Font Color",
-      "description": "Enter a value for font color. i.e FFFFFF, blue"
+      "description": "Choose description font color"
     },
     "overlayColor": {
       "type": "string",
-      "minLength": 3,
-      "maxLength": 11,
+      "format": "color",
       "title": "Overlay Color",
-      "description": "Enter a value for the overlay color i.e FFFFFF, blue"
+      "description": "Choose overlay color"
     },
     "overlayOpacity":{
       "type": "number",
@@ -202,6 +198,42 @@
       "description": "Enter a value between 0 and 1 (e.g. 0.5)",
       "minimum": 0,
       "maximum": 1.01
+    },
+    "headerFont": {
+      "title": "Header Font",
+      "description": "Pick from the list of available fonts",
+      "type": "string",
+      "enum": [
+        "proxima-nova",
+        "proxima-nova-condensed",
+        "proxima-nova-extra-condensed",
+        "chinchilla",
+        "continuo",
+        "grandma",
+        "alternate-gothic-no-2-d",
+        "josefin-slab",
+        "trajan-pro-3",
+        "azo-sans-uber",
+        "hwt-republic-gothic-outline",
+        "objektiv-mk1",
+        "old-man-eloquent",
+        "emily-austin",
+        "lamar-pen",
+        "mrs-eaves-xl-serif",
+        "termina",
+        "rift-soft",
+        "axia-stencil",
+        "farm-new",
+        "big-caslon-fb",
+        "bureau-grot",
+        "bureau-grot-condensed",
+        "miller-banner",
+        "odile",
+        "dapifer-stencil",
+        "active",
+        "bebas-neue-rounded",
+        "smoothy"
+      ]
     }
   }
 }
