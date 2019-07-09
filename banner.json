@@ -28,6 +28,7 @@
     "stackMobileLayout",
     "hideBG",
     "contentImg",
+    "customFont",
     "style",
     "analyticsEventLabel"
   ],
@@ -234,6 +235,11 @@
         "bebas-neue-rounded",
         "smoothy"
       ]
+    },
+    "customFont": {
+      "type": "string",
+      "title": "Custom Font",
+      "description": "Add the font-family after adding it to your css"
     }
   }
 }
