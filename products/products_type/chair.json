@@ -1,0 +1,39 @@
+{
+  "$schema": "http://bigcontent.io/cms/schema/v1/schema#",
+  "id": "{CONTENT_TYPE_BASEPATH}/products/product_type/chair.json",
+  "title": "Chair product type",
+  "description": "Product type for chairs",
+  "allOf": [
+    {
+      "$ref": "http://bigcontent.io/cms/schema/v1/core#/definitions/content"
+    }
+  ],
+  "type": "object",
+  "properties": {
+    "product_details": {
+      "title": "Product Details",
+      "$ref": "{CONTENT_TYPE_BASEPATH}/products/partials/base.json#/definitions/generic_details"
+    },
+    "product_options": {
+      "title": "Available Product Options",
+      "description": "Available customization options",
+      "type": "object",
+      "properties": {
+        "finishes": {
+          "$ref": "{CONTENT_TYPE_BASEPATH}/products/partials/finishes#/definitions/finishes"
+        },
+        "Stocked_fabrics": {
+          "$ref": "{CONTENT_TYPE_BASEPATH}/products/partials/fabrics#/definitions/fabrics"
+        },
+        "depth": {
+          "$ref": "{CONTENT_TYPE_BASEPATH}/products/partials/depths#/definitions/depths"
+        }
+      },
+      "propertyOrder": []
+    }
+  },
+  "propertyOrder": [
+    "product_details",
+    "product_options"
+  ]
+}
