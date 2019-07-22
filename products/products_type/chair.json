@@ -20,13 +20,13 @@
       "type": "object",
       "properties": {
         "finishes": {
-          "$ref": "{CONTENT_TYPE_BASEPATH}/products/partials/finishes#/definitions/finishes"
+          "$ref": "{CONTENT_TYPE_BASEPATH}/products/partials/finishes.json#/definitions/finishes"
         },
         "Stocked_fabrics": {
-          "$ref": "{CONTENT_TYPE_BASEPATH}/products/partials/fabrics#/definitions/fabrics"
+          "$ref": "{CONTENT_TYPE_BASEPATH}/products/partials/fabrics.json#/definitions/fabrics"
         },
         "depth": {
-          "$ref": "{CONTENT_TYPE_BASEPATH}/products/partials/depths#/definitions/depths"
+          "$ref": "{CONTENT_TYPE_BASEPATH}/products/partials/depths.json#/definitions/depths"
         }
       },
       "propertyOrder": []
