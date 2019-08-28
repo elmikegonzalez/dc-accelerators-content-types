@@ -140,7 +140,7 @@
       "description": "Choose description font color"
     },
     "cardNameFont": {
-      "title": "Description Font",
+      "title": "CardName Font",
       "description": "Pick from the list of available fonts",
       "type": "string",
       "enum": [
@@ -177,7 +177,7 @@
     },
     "cardNameFontSize": {
       "type": "number",
-      "title": "Description Font Size",
+      "title": "CardName Font Size",
       "description": "Font size",
       "validation": "Please enter a value between 12 and 128px",
       "minimum": 12,
@@ -185,7 +185,7 @@
     },
     "cardNameFontWeight": {
       "type": "number",
-      "title": "Description Font Weight",
+      "title": "CardName Font Weight",
       "description": "Font Weight",
       "validation": "Please enter a value between 100 and 600",
       "minimum": 100,
@@ -193,7 +193,7 @@
     },
     "cardNameFontStyle": {
       "type": "string",
-      "title": "Description Font Style",
+      "title": "CardName Font Style",
       "description": "Font Style",
       "enum": [
         "normal",
@@ -204,8 +204,8 @@
     "cardNameFontColor": {
       "type": "string",
       "format": "color",
-      "title": "Description Font Color",
-      "description": "Choose description font color"
+      "title": "CardName Font Color",
+      "description": "Choose CardName font color"
     }
   }
 }
