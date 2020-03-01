@@ -55,7 +55,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "https://unpkg.com/dc-accelerators-content-rendering-service/dist/contentTypes/image.json"
+          "$ref": "{CONTENT_TYPE_BASEPATH}/eastpak/image.json"
         }
       ]
     },
@@ -233,7 +233,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "https://unpkg.com/dc-accelerators-content-rendering-service/dist/contentTypes/video.json"
+          "$ref": "{CONTENT_TYPE_BASEPATH}/eastpak/video.json"
         }
       ]
     },
