@@ -201,7 +201,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "https://unpkg.com/dc-accelerators-content-rendering-service/dist/contentTypes/button.json"
+          "$ref": "{CONTENT_TYPE_BASEPATH}/eastpak/button.json"
         }
       ]
     },
