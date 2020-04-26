@@ -33,7 +33,8 @@
       "type": "string",
       "enum": [
         "black",
-        "white"
+        "white",
+        "hollow"
       ]
     },
     "buttonTransition":{
